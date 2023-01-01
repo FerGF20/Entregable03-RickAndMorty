@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    padding: 0 2rem 1rem 2rem;
+    text-align: center;
+    gap: 2rem;
+    height: 100%;
+    background-color: cadetblue;
+}
+
+input{
+    padding: 5px;
+    width: 30vw;
+}
+
+.form_btn{
+    padding: 5px;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+.location_info{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.location_list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 0.5rem;
+}
+
+.location_list span{
+    color: white;
+    font-size: 80%;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.character_card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(44, 79, 80);
+    border-radius: 10px;
+}
+
+.resident_img_container{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+} 
+
+.resident_status{
+    background-color: white;
+    border: solid black;
+    border-radius: 10px;
+    width: 30%;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.resident_alive{
+    color: green;
+    
+}
+
+.resident_dead{
+    color: red;
+}
+
+.resident_unknown{
+    color: gray;
+}
+
+.resident_info{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 0.5rem;
+}
+
+.resident_info span{
+    color:white;
+    font-size: 90%;
+}
+
+
+.background_img{
+    display: block;
+    object-fit: cover;
+    width: 118%;
+    height: 20vh;
+    object-position: center 60%;
+}
+
